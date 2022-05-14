@@ -19,7 +19,7 @@ public class SpringJdbcTransactionApplication {
         customer.setName("Joe");
         Address address = new Address();
         address.setId(1);
-          address.setAddress("Albany Dr, San Jose, CA 95129");
+          address.setAddress("Albany Dr, San Jose, CA 95129");//Exception line
        // address.setAddress("Hyderabad");
         address.setCountry("India");
         customer.setAddress(address);
